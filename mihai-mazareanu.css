@@ -1,0 +1,132 @@
+body {
+  background-color: cornflowerblue;
+  font-family: Helvetica;
+}
+
+.languages {
+  /*background-color: aqua;*/
+  text-align: right;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.name {
+  /*background-color: beige;*/
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.profile-image {
+  /*background-color: blue;*/
+  text-align: center;
+  padding: 5% 10%;
+  border-top: 2px solid white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+ }
+
+img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  padding: 0.125rem;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+  margin-top: -5rem;
+  }
+
+img:hover {
+  transform: scale(1.2);
+  filter: grayscale(20%);
+}
+
+.profile-card {
+  /*background-color: chartreuse;*/
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.past {
+  /*background-color: brown;*/
+  margin: 0.25rem;
+  width: 45%;
+  height: 40%;
+  background: url('assets/past.jpg') no-repeat center center fixed;
+}
+
+.present {
+  /*background-color: blueviolet;*/
+  margin: 0.25rem;
+  width: 45%;
+  height: 40%;
+  float: right;
+  background: url('assets/present.jpg') no-repeat center center fixed;
+}
+
+.future {
+  /*background-color: burlywood;*/
+  margin: 0.25rem;
+  width: 100%;
+  height: 20%;
+  background: url('assets/future.jpg') no-repeat center center fixed;
+}
+
+.links {
+  /*background-color: cadetblue;*/
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.past, .present, .future {
+  border: 0.125rem solid white;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.more {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5 rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+h1, p {
+  letter-spacing: 0.35px;
+}
+
+h2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.5 rem;
+  font-weight: bolder;
+}
+
+.back {
+  font-size: 1.2rem;
+  text-align: right;
+  padding: 1rem;
+}
+
+p {
+  line-height: 1.6rem;
+  padding: 0.25rem;
+}
