@@ -92,7 +92,7 @@ img:hover {
 }
 
 .card {
-  background-color: chartreuse;
+  /*background-color: chartreuse;*/
   margin: auto 3rem auto 3rem;
   /*width: 90vw;*/
   height: 50vh;
@@ -103,7 +103,7 @@ img:hover {
   /*background-color: brown;*/
   /*position: relative;*/
   margin: 0 auto auto 0;
-  width: 46%;
+  width: 49%;
   height: 100%;
   background: url('assets/past.jpg') no-repeat center center;
   display: inline-block;
@@ -113,7 +113,7 @@ img:hover {
 .present {
   /*background-color: blueviolet;*/
   /*position: relative;*/
-  width: 46%;
+  width: 49%;
   height: 100%;
   background: url('assets/present.jpg') no-repeat center center;
   display: inline-block;
@@ -122,18 +122,16 @@ img:hover {
 
 .future {
   background-color: burlywood;
-  margin: auto 3rem auto 3rem;
-  width: 90vw;
+  margin: 2rem 3rem 2rem 3rem;
   height: 20%;
   background: url('assets/future.jpg') no-repeat center center;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .past, .present, .future {
-  margin: 1rem;
   border: 0.125rem solid white;
   border-radius: 0.5rem;
-  /*padding: 1rem;*/
+  padding: 1rem;
   box-sizing: border-box;
   background-size: cover;
   background-color: hsla(0, 0%, 100%, .63);
@@ -191,5 +189,5 @@ h2 {
 p {
   line-height: 1.6rem;
   padding: 0.25rem;
-  font-weight: bolder;
+  font-weight: bold;
 }
