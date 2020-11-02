@@ -48,43 +48,44 @@ table {
 /*==== END OF CSS RESET ====*/
 
 body {
+  font-family: Merriweather, Verdana, serif;
   background-color: hsla(0, 0%, 100%, .5);
-  font-family: Helvetica;
   background: url(assets/past.jpg) no-repeat center center fixed ;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .past-card {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .past-more {
   margin: auto;
-  width: 70%;
-  height: 70%;
+  width: 90%;
+  height: 80%;
   border: 0.125rem solid white;
   border-radius: 0.5rem;
   padding: 1rem;
   background-color: hsla(0, 0%, 100%, .63);
   background-blend-mode: screen;
-  padding-left: 3rem;
-  
-  /*box-sizing: border-box;
-  display: inline-block;
-  position: relative;*/
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 1.5 rem;
+  font-size: 5 rem;
   font-weight: bolder;
   margin-bottom: 1rem;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 h1, p, h2 {
@@ -100,7 +101,7 @@ h2 {
 }
 
 .back {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: right;
   padding: 1rem;
 }

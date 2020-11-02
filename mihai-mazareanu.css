@@ -49,317 +49,195 @@ table {
 /*==== START RESPONSIVE LAYOUT CSS ====*/
 
 body {
-  background-color: cornflowerblue;
-  font-family: Helvetica;
-  width: 100vw;
-  height: 100vh;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.languages {
-  /*background-color: aqua;*/
-  width: 100%;
-  height: 5%;
-  text-align: right;
-/*margin: 1rem 3rem 2rem 10rem;*/
-}
-
-.name {
-  /*background-color: beige;*/
-  height: 5%;
-  width: 100%;
-  /*margin: 2rem auto 0;*/
-  /*width: 95%;
-  text-align: center;
-  font-size: 2rem;
-  color: white;
-  margin: 2rem 3rem 5.5rem;  
-  display: inline-block;*/
-}
-
-.profile-image {
-  background-color: blue;
-  padding-bottom: 100%;
-  position: relative;
-  height: 5%;
-  width: 100%;
-  border-top: 0.125rem solid white;
-  margin: 12% auto -87.8% auto;
-  display: inline;
-}
-
-img {
-  position: absolute;
-  top: 5%;
-  left: 40%;
-  height: 20%;
-  width: 20%;
-  border-radius: 50%;
-  /*width: 10rem;
-  height: 10rem;*/
-  padding: 0.125rem;
-  background-color: white;
-  transition: all 0.5s ease-in-out;
-  filter: grayscale(50%);
-  margin-top: -15%;
-}
-
-img:hover {
-  transform: scale(1.2);
-  filter: grayscale(20%);
-}
-
-.card {
-  /*background-color: chartreuse;*/
-  height: 128%;
-  /*margin: -3.875rem auto;*/
-  width: 100%; 
-  margin-bottom: -40%;
-  margin-top: 2%;    
-}
-
-.past {
-  /*background-color: brown;*/
-  height: 80%;
-  width: 48.5%;
-  /*margin-left: 1%;*/
-  display: inline-block;
-  /*margin: 1.25rem auto;*/
-  background: url('assets/past.jpg') no-repeat center center;
-  font-size: 1rem;
-}
-
-.present {
-  /*background-color: blueviolet;*/
-  height: 80%;
-  width: 48.5%;
-  /*margin-right: 1%;*/
-  float: right;
-  display: inline-block;
-  /*margin: 1.25rem auto;*/
-  background: url('assets/present.jpg') no-repeat center center;  
-}
-
-.future {
-  /*background-color: burlywood;*/
-  height: 20%;
-  width: 100%;
-  margin-top: 2%;
-  /*margin-left: 1%;*/
-  display: inline-block;
-  /*margin: 2rem 3rem 2rem 3rem;*/
-  background: url('assets/future.jpg') no-repeat center center;
-  /*display: inline-block;*/
-}
-
-.past, .present, .future {
-  border: 0.125rem solid white;
-  border-radius: 0.5rem;
-  background-size: cover;
-  background-color: hsla(0, 0%, 100%, .63);
-  background-blend-mode: screen;
-  padding: 0.5rem;
-  line-height: 1.7rem;
-}
-
-.links {
-  background-color: cadetblue;
-  height: 5%;
-  text-align: center;
-  color: white;
-  padding-top: 0.25rem;
-  clear: both;
-  margin-top: 42%; 
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  display: inline;
-}
-
-h1{
-  color: white;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  font-family: Merriweather, Verdana, serif;
+  /*font-size: 1.125rem;
+  line-height: 2rem;*/
+  color: #333;
+  background-color: #42444e;
+  
 }
 
 h1, h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  width: 100vw;
+  height: 27vh;
   text-align: center;
-  text-transform: uppercase;
-  font-weight: bolder;
+  padding: 2% 2%;
+  color: #fff;
+  background-color: cornflowerblue;
+  position: absolute;  
 }
 
-p {
-  font-size: 1rem;
-  padding: 0.5rem;
-}
+.languages {
+  /*background-color:aliceblue;*/
+  width: 100%;
+  height: 10%;
+  text-align: right;
+  padding-right: 2%;
+  position: relative;
+} 
 
-h1, p, h2 {
-  letter-spacing: 0.021875rem;
-}
-  
-/*==== START OLD CSS ====*/
-
-/*.languages {
-  background-color: aqua;
-  float: right;
-  padding: 1rem 1rem 0.1rem;
-  font-size: 2.5rem;
-  margin: 1rem 3rem 2rem 10rem;
-  height: 5%;
-  border: 0.125rem solid white;
-  border-radius: 0.5rem;
+a:hover {
+  color: #fff;    
 }
 
 .name {
-  background-color: beige;
-  width: 95%;
+  /*background-color: brown;*/
+  width: 100%;
+  height: 38%;
   text-align: center;
-  font-size: 2rem;
+  position: relative;
+  padding-top: 2%;  
+}
+
+h1 {
+  margin: 0 auto;
+  padding-top: 2.5%;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-align: center;
   color: white;
-  margin: 2rem 3rem 5.5rem;
-  height: 5%;
-  display: inline-block;
 }
 
 .profile-image {
-  background-color: blue;
-  text-align: center;
-  border-top: 2px solid white;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  height: 5%;
- }
+  /*background-color: burlywood;*/
+  width: 100%;
+  height: 50%;
+  text-align: center; 
+  position: relative;  
+  margin-top: -4%;
+}
 
 img {
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   padding: 0.125rem;
   background-color: white;
   transition: all 0.5s ease-in-out;
   filter: grayscale(50%);
-  margin-top: -5rem;
-  }
+  margin-top: -2.5rem;
+}
 
 img:hover {
   transform: scale(1.2);
   filter: grayscale(20%);
 }
 
-.card {
-  background-color: chartreuse;
-  margin: -0.25rem 3rem auto 3rem;
-  *width: 100%;
-  height: 40%;
+.white-line {
+  border-top: 0.125rem solid white;
+  width: 100%;
+  margin: 2.5rem auto 0;
+  position: relative;
+}
+
+.primary-content {
+  background-color: #8c8e9b;
+  width: 100vw;
+  height: 66vh;
+  letter-spacing: 0.125rem;
+  line-height: 1rem;
+  display: inline-block;
+  position: absolute;
+  bottom: 10vh;
 }
 
 .past {
-  background-color: brown;
-  margin: 1.25rem auto;
-  width: 49%;
-  height: 100%;
-  background: url('assets/past.jpg') no-repeat center center;
-  display: inline-block;
-  font-size: 1rem;
+  /*background-color: forestgreen;*/
+  width: 90%;
+  height: 40%;  
+  padding-top: 1%;
+  /*font-size: 0.25rem;*/
+  position: relative;
+  margin: 0 auto;
+  background: url(assets/past.jpg) no-repeat center center fixed ;
+  background-size: cover;
+  border: 0.125rem solid white;
+  border-radius: 0.5rem;
+  margin-top: 1%;
+  background-color: hsla(0, 0%, 100%, .63);
+  background-blend-mode: screen;  
 }
 
 .present {
-  background-color: blueviolet;
-  margin: 1.25rem auto;
-  width: 49%;
-  height: 100%;
-  background: url('assets/present.jpg') no-repeat center center;
-  display: inline-block;
-  float: right;
+  /*background-color: goldenrod;*/
+  width: 90%;
+  height: 40%;  
+  padding-top: 1%;
+  /*font-size: 0.25rem;*/
+  position: relative;
+  margin: 0 auto;
+  background: url(assets/present.jpg) no-repeat center center fixed ;
+  background-size: cover;
+  border: 0.125rem solid white;
+  border-radius: 0.5rem;
+  margin-top: 1%;
+  background-color: hsla(0, 0%, 100%, .63);
+  background-blend-mode: screen;  
 }
 
 .future {
-  background-color: burlywood;
-  margin: 2rem 3rem 2rem 3rem;
-  height: 20%;
-  background: url('assets/future.jpg') no-repeat center center;
-  /*display: inline-block;*/
-/*}
-
-.past, .present, .future {
+  /*background-color: fuchsia;*/
+  width: 90%;
+  height: 17%;  
+  padding-top: 1%;
+  /*font-size: 0.25rem;*/
+  position: relative;
+  margin: 0 auto;
+  background: url(assets/future.jpg) no-repeat center center fixed ;
+  background-size: cover;
   border: 0.125rem solid white;
   border-radius: 0.5rem;
-  padding: 1rem;
-  background-size: cover;
+  margin-top: 1%;
   background-color: hsla(0, 0%, 100%, .63);
-  background-blend-mode: screen;
-}
-
-.links {
-  background-color: cadetblue;
-  height: 5%;
-  text-align: center;
-  color: white;
-  bottom: 0;
-  clear: both;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  display: inline;
-}
-
-.more {
-  margin-top: 1rem;
-  text-align: right;
-}
-
-h1 {
-  text-transform: uppercase;
-  font-size: 3rem;
-  font-weight: bolder;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-* {
-  letter-spacing: 0.35px;
-  box-sizing: border-box;
-}
-
-h2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: bolder;
-  text-align: center;
-}
-
-.back {
-  font-size: 1.2rem;
-  text-align: right;
-  padding: 1rem;
+  background-blend-mode: screen;  
 }
 
 p {
-  line-height: 1.6rem;
-  padding: 0.25rem;
-  font-weight: bold;
+  font-size: 60%;
+  padding: 1%;
+  margin: auto;
+  font-weight: bolder;
 }
 
-h1,h2,h3,h4,h5,h6,hgroup,
-ul,ol,dd,
-p,figure,
-pre,table,fieldset,hr,
-img  {
-    margin-bottom: 1rem;
+h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
 }
-*/
-/*==== END OLD CSS ====*/
+
+.links {
+  /*background-color: #42444e;*/
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: #e5127d;
+  line-height: 1.5rem;
+}
+
+ul {
+  list-style-type: none;  
+}
+
+li {
+  display: inline;  
+}
+
+/*h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure, img,
+pre,table,fieldset,hr,
+.main-header, .primary-content, .contact {
+    margin-bottom: 1rem;
+}*/
