@@ -72,7 +72,7 @@ h1, h2 {
   padding: 2% 2%;
   color: #fff;
   background-color: cornflowerblue;
-  /*position: absolute;  */
+  position: relative;  
   top: 0;
 }
 
@@ -110,12 +110,11 @@ h1 {
 }
 
 .profile-image {
-  /*background-color: burlywood;*/
+  background-color: burlywood;
   width: 100%;
-  height: 40%;
+  height: 20rem;
   text-align: center; 
   position: relative;  
-  margin-top: -4%;
 }
 
 img {
