@@ -252,7 +252,29 @@ p {
   .languages {
     text-align: center;
   }
+  
+  img {
+    transform: scale(1.7);
+  }
+  
+  img:hover {
+  transform: scale(2);
+  filter: grayscale(20%);
 }
+ 
+  .profile-image {
+    margin-top: 7%;
+  } 
+  
+  .name {
+    font-size: 2rem;
+  }
+  
+  .languages {
+    font-size: 1.3rem;
+  }
+}
+
 
 /*==== START RESPONSIVE LAYOUT CSS OLD ====*/
 
